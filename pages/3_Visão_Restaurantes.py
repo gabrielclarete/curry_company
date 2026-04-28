@@ -145,7 +145,7 @@ def render_sidebar(df1):
     """Renderiza a barra lateral e retorna o DataFrame filtrado."""
     image_path = 'logo.png'
     image = Image.open(image_path)
-    st.sidebar.image(image, width=500)
+    st.sidebar.image(image, width=250)
 
     st.sidebar.markdown("# Cury Company")
     st.sidebar.markdown('## Fastest Delivery in Town')
