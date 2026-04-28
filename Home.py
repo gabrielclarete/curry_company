@@ -9,7 +9,7 @@ st.set_page_config(
 
 #image_path = 'C:/Users/gabri/repos/ftc_programacao_python'
 image = Image.open('logo.png')
-st.sidebar.image(image, width=200)
+st.sidebar.image(image, width=250)
 
 st.sidebar.markdown('# Curry Company')
 st.sidebar.markdown('## Fastest Delivery in Town')
